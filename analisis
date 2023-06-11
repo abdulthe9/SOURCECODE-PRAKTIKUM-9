@@ -1,0 +1,27 @@
+Filter Sobel:
+
+Filter Sobel adalah operator konvolusi yang mengidentifikasi tepi dalam citra.
+Filter ini bekerja dengan menghitung gradien intensitas piksel dalam citra.
+Filter Sobel memiliki dua kernel (horizontal dan vertikal) yang digunakan untuk mendeteksi tepi dalam kedua arah tersebut.
+Filter Sobel sangat baik dalam mendeteksi tepi yang kuat dalam citra, tetapi cenderung menghasilkan tepi yang sedikit tebal.
+
+Filter Prewitt:
+
+Filter Prewitt juga merupakan operator konvolusi yang digunakan untuk mendeteksi tepi dalam citra.
+Seperti filter Sobel, filter Prewitt juga menggunakan kernel horizontal dan vertikal.
+Filter Prewitt memiliki respons yang mirip dengan filter Sobel, tetapi lebih sederhana karena menggunakan kernel dengan nilai tetap.
+Meskipun filter Prewitt cukup baik dalam mendeteksi tepi, hasilnya cenderung kurang tajam dibandingkan dengan filter Sobel.
+
+Filter Canny:
+
+Filter Canny adalah metode deteksi tepi yang lebih kompleks dibandingkan dengan filter Sobel dan Prewitt.
+Filter ini menggabungkan beberapa langkah, termasuk penghalusan citra, deteksi gradien, non-maximum suppression, dan histeresis.
+Filter Canny memiliki keunggulan dalam menghasilkan tepi yang tajam, baik dalam mendeteksi tepi yang kuat maupun lemah.
+Filter ini juga memiliki kemampuan untuk menghilangkan derau (noise) yang ada dalam citra.
+
+Filter Laplacian:
+
+Filter Laplacian adalah operator deteksi tepi yang bekerja dengan mengidentifikasi perubahan intensitas piksel dalam citra.
+Filter ini mengambil gradien kedua dari citra untuk menemukan perubahan intensitas yang tajam.
+Filter Laplacian cenderung menghasilkan tepi yang lebih tebal dibandingkan dengan filter Sobel atau Prewitt.
+Filter ini sensitif terhadap derau dalam citra dan sering kali menghasilkan tepi yang tidak stabil.
